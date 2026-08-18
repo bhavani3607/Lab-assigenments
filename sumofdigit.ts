@@ -1,9 +1,9 @@
-let num = 1234;
-let sum = 0;
+let numss = 1234;
+let sums = 0;
 
-while (num > 0) {
-    sum += num % 10;
-    num = Math.floor(num / 10);
+while (numss > 0) {
+    sums += numss % 10;
+    numss = Math.floor(numss / 10);
 }
 
-console.log(sum);
+console.log(sums);
